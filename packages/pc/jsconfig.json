@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"],
+      "~~/*": ["./*"],
+      "@@/*": ["./*"],
+      "mirai-common": ["/node_modules/mirai-common"]
+    }
+  },
+  "exclude": ["node_modules", ".nuxt", "dist"]
+}
