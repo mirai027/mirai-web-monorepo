@@ -1,13 +1,12 @@
 <template>
-  <h1>test</h1>
+  <div>NavBar</div>
 </template>
 
 <script>
 export default {
-
+  name: 'NavBar'
 }
 </script>
 
 <style>
-
 </style>

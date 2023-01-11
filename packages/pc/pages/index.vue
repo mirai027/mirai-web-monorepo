@@ -1,18 +1,14 @@
 <template>
   <div>
-    <test />
-    <el-button />
+    4 123
+    <NavBar />
   </div>
 </template>
 
 <script>
-import { Test } from 'mirai-common'
-import { Button as ElButton } from 'element-ui'
+import { NavBar } from 'mirai-common'
 export default {
   name: 'IndexPage',
-  components: {
-    Test,
-    ElButton,
-  },
+  components: { NavBar },
 }
 </script>

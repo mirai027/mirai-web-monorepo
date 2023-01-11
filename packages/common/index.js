@@ -1,5 +1,3 @@
-import Test from './src/components/test.vue'
+const files = require.context('./src/components', false, /.vue$/)
 
-export {
-  Test
-}
+module.exports = files.keys().reduce((prev, curr) => (prev[files(curr).default.name] = files(curr).default, prev), {})
